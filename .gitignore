@@ -1,0 +1,6 @@
+www/lib
+bower_components
+node_modules
+plugins
+platforms
+hooks

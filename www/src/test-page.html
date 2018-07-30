@@ -1,0 +1,26 @@
+<link rel="import" href="../lib/polymer/polymer-element.html">
+
+<dom-module id="test-page">
+  <template>
+    <style>
+    </style>
+
+    <div>hello world</div>
+  </template>
+
+  <script>
+    {
+      /**
+       * @extends Polymer.Element
+       */
+      class TestPageElement extends Polymer.Element {
+        static get is() {
+          return 'test-page';
+        }
+      }
+
+      customElements.define(TestPageElement.is, TestPageElement);
+    }
+  </script>
+
+</dom-module>
